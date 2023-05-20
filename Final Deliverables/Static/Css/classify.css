@@ -1,0 +1,108 @@
+/* Body styling */
+body {
+    background-image: url_for('static', filename='Css/classify.css');
+    background-image: url("/Static/Images/Classify.jfif");
+    background-size: cover;
+}
+
+/* Web page title */
+main .web-title h2{ 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: chartreuse; /* Title font color */
+    font-size: 30px;
+    margin-top: 10%;
+}
+
+/* Web page Paragraph*/
+main .web-title p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    margin-top: 5%;
+}
+
+/* navigation bar logo (IBM ID) */
+nav .logo {
+    background-color:black; /*logo background color*/
+    text-align: center;
+    font-size: 20px;
+    font-weight: inherit;
+    color: white; /* Logo font color*/
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color:black; /* navigation bar background color*/
+	height: 70px;
+	padding: 0 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+nav ul.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+nav ul.menu li {
+	margin: 0 10px;
+}
+
+/* navigation bar elements*/
+nav ul.menu li a {
+	text-decoration: none;
+	color: blue; /* List element font color */
+	font-size: 18px;
+	transition: all 0.3s ease;
+	padding: 10px 0;
+}
+
+/* hover effect on navigation bar */
+nav ul.menu li a:hover {
+	border-bottom: 2px solid skyblue; /*hover affect color*/
+}
+
+.form{
+    font-family: 'Times New Roman', Times, serif;
+    color:chocolate;
+	font-size: larger;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styling for the submit button */
+input[type="submit"] {
+	background-color:chartreuse;
+	/* Button text color */
+	color: black;
+	/* Button padding */
+	padding: 15px 30px;
+	/* Button border */
+	border:black;
+	/* Button border radius */
+	border-radius: 4px;
+	/* Button cursor style */
+	cursor: pointer;
+	font-size: medium;
+}
+
+/* Styling when hovering over the button */
+input[type="submit"]:hover {
+	background-color: skyblue; /*mouse on top*/
+	color: black; /*font color*/
+  }
+  
+  /* Styling when button is active or clicked */
+  input[type="submit"]:active {
+	background-color: whitesmoke; /*Click on mouse */
+  }

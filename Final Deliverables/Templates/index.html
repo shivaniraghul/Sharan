@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Home page </title>
+    <link rel="stylesheet" href="/Static/Css/style.css">
+    <link rel="stylesheet" type="text/css" href="url_for('static', filename='Css/style.css')">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo"> IBM Team ID : NM2023TMI</div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="{{ url_for('classify') }}">Classify</a></li>
+            <li><a href="{{ url_for('team') }}">Team</a></li>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main class="main">
+      <div class="web-title">
+        <h2>DEEP LEARNING MODEL FOR DETECTING DISEASE IN TEA LEAVES</h2>
+        <p> Welcome to our website,Tea is an important economic crop.
+          It contains a variety of effective ingredients required by the human body.
+          Tea leaf diseases can reduce the quality of tea and cause serious economic losses to tea farmers.
+          Tea leaf diseases can be identified by observing the leaves condition like color and spots on the leaves. 
+          By using our website you can identify the type of disease by observing the leaves manually
+          And it analyzes the image and detects whether the tea leaves are having any disease or not and its type.</p>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

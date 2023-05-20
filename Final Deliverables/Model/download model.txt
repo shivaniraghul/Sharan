@@ -1,0 +1,5 @@
+/// Dowload the h5 file ///
+
+Drive link : https://drive.google.com/file/d/1Vsl4PTH8AXIDgiPVXvV0yPUZwJjBxVHw/view?usp=sharing
+
+/// Place the h5 file inside the model folder ///
